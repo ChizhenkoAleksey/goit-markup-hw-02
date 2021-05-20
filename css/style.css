@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 :root {
 --pretty-color: #2196F3;
 --while-color: #FFFFFF;
@@ -5,6 +10,57 @@
 a{
     color: inherit;
     text-decoration: none;
+}
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+.span {
+    color: #2196F3;
+}
+.logo {
+    color: black;
+    width: 145px;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logotip {
+    color: white;
+    width: 145px;
+    font-size: 26px;
+    line-height: 31px;
+}
+.spis {
+    color: #212121;
+    width: 270px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.spi {
+    color: #757575;
+    width: 270px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.about {
+    color: #212121;
+    width: 264px;
+    font-size: 36px;
+    line-height: 42px;
+}
+.name {
+    color: #212121;
+    width: 151px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+}
+.job {
+    color: #757575;
+    width: 147px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: normal;
 }
 ul{
     list-style: none;
@@ -19,6 +75,27 @@ background: var(--while-color) ;
 .telList a:hover {
     color: var(--pretty-color);
 }
+.map {
+    color: #FFFFFF;
+    width: 231px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+}
+.mail {
+    color: #FFFFFF;
+    width: 231px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+}
+.tel {
+    color: #FFFFFF;
+    width: 231px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal; 
+}
 .efect {
     background: #2F303A ;
 }
@@ -26,6 +103,7 @@ background: var(--while-color) ;
     color: #FFFFFF;
     font-size:  44px;
     font-weight: 900;
+    width: 1600px;
 }
 .spisok {
     background: #E5E5E5;
