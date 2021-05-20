@@ -13,8 +13,24 @@ ul{
 .header{
 background: var(--while-color) ;
 }
+
 .navList a:hover,
 .addList a:hover,
 .telList a:hover {
     color: var(--pretty-color);
+}
+.efect {
+    background: #2F303A ;
+}
+.spisok {
+    background: #E5E5E5;
+}
+.zanim {
+    background: #E5E5E5;
+}
+.komando {
+    background: #F5F4FA;
+}
+.footer {
+    background: #2F303A;
 }
