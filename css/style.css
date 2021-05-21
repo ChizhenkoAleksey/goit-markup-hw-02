@@ -35,10 +35,6 @@
     width: 1600px;
 }
 
-ul{
-    list-style: none;
-}
-
 .header{
 background: var(--while-color) ;
 }
@@ -48,4 +44,27 @@ background: var(--while-color) ;
 .telList:hover,.telList:focus {
     color: var(--pretty-color);
 
+}
+/* секция 1*/
+.post {
+    background-color: #2F303A;
+    width: 1600px;
+}
+.post-title {
+    color: var(--while-color);
+    font-family: Roboto;
+    width: 696px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1,5;
+}
+/* секция 2*/
+
+.post-text {
+    color: #757575;
+    font-family: Roboto;
+    width: 270px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1;
 }
