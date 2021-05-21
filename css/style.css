@@ -75,6 +75,9 @@ background: var(--while-color) ;
 .telList a:hover {
     color: var(--pretty-color);
 }
+.telList {
+    font-style: normal;
+}
 .map {
     color: #FFFFFF;
     width: 231px;
@@ -83,14 +86,14 @@ background: var(--while-color) ;
     font-weight: normal;
 }
 .mail {
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6;
     width: 231px;
     font-size: 14px;
     line-height: 24px;
     font-weight: normal;
 }
 .tel {
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6;
     width: 231px;
     font-size: 14px;
     line-height: 24px;
