@@ -7,8 +7,9 @@
 --pretty-color: #2196F3;
 --while-color: #FFFFFF;
 --black-color: #212121;
---active-color: #757575
+--active-color: #757575;
 }
+
 .page {
     background-color: #FFFFFF;
     text-decoration: none;
@@ -32,6 +33,14 @@
     font-family: Raleway;
     font-style: normal;
 }
+.auth-navlist {
+    color: var(--active-color) ;
+    font-family: Roboto;
+    width: 122px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1;
+}
 /*site-nav*/
 .site-nav .link {
     color: var(--black-color);
@@ -39,16 +48,30 @@
 .container {
     width: 1600px;
 }
-
-.header{
-background: var(--while-color) ;
+/*header*/
+.page-header{
+    background: var(--while-color) ;
+    color: var(--black-color);
+    font-family: Roboto;
+    width: 77px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1;
 }
 
 .site-nav .link:hover,.site-nav .link:focus
-.addList:hover,.addList:focus
+.auth-navlisat:hover,.auth-navlisat:focus
 .telList:hover,.telList:focus {
     color: var(--pretty-color);
+    font-family: Roboto;
+    width: 49px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1;
 
+}
+.site-nav .link.current {
+    color: var(--pretty-color);
 }
 /* секция post */
 .post {
@@ -105,5 +128,43 @@ background: var(--while-color) ;
     width: 147px;
     font-style: normal;
     font-weight: normal;
+    font-size: 1;
+}
+/*footer*/
+.footer {
+    background-color: #2F303A ;
+}
+.tel-list .map {
+    color: var(--while-color);
+    font-family: Roboto;
+    width: 231px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1;
+}
+.tel-list .add {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto;
+    width: 231px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1;
+}
+/* portfolio*/
+.none {
+    display: none;
+}
+.button-primary {
+    background-color: #F5F4FA ;
+    color: var(--black-color) ;
+    width: 145px;
+    border-radius: 4px;
+}
+.button-primary:hover, .button-primary:focus {
+    color: var(--while-color) ;
+    background-color: var(--pretty-color);
+    font-family: Roboto;
+    width: 29px;
+    font-style: normal;
     font-size: 1;
 }
