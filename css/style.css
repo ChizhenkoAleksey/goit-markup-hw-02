@@ -56,7 +56,7 @@
     width: 77px;
     font-style: normal;
     font-weight: 500;
-    font-size: 1;
+    font-size: 14px;
 }
 
 .site-nav .link:hover,.site-nav .link:focus
@@ -67,7 +67,7 @@
     width: 49px;
     font-style: normal;
     font-weight: 500;
-    font-size: 1;
+    font-size: 14px;
 
 }
 .site-nav .link.current {
@@ -84,7 +84,7 @@
     width: 696px;
     font-style: normal;
     font-weight: 900;
-    font-size: 1,5;
+    font-size: 44px;
 }
 /*button*/
 .button {
@@ -93,7 +93,7 @@
     font-family: Roboto;
     width: 136px;
     font-style: normal;
-    font-size: 1;   
+    font-size: 16px;   
 }
 /* секция 2*/
 .section-title {
@@ -101,7 +101,7 @@
     font-family: Roboto;
     width: 376px;
     font-style: normal;
-    font-size: 1,5;
+    font-size: 36px;
 }
 /* feature*/
 .feature-list .title {
@@ -109,7 +109,7 @@
     font-family: Roboto;
     width: 270px;
     font-style: normal;
-    font-size: 1,17;
+    font-size: 14px;
 }
 
 
@@ -119,7 +119,7 @@
     width: 270px;
     font-style: normal;
     font-weight: normal;
-    font-size: 1;
+    font-size: 14px;
 }
 /*work-list*/
 .work-list .work {
@@ -128,7 +128,7 @@
     width: 147px;
     font-style: normal;
     font-weight: normal;
-    font-size: 1;
+    font-size: 16px;
 }
 /*footer*/
 .footer {
@@ -140,7 +140,7 @@
     width: 231px;
     font-style: normal;
     font-weight: normal;
-    font-size: 1;
+    font-size: 14px;
 }
 .tel-list .add {
     color: rgba(255, 255, 255, 0.6);
@@ -148,12 +148,16 @@
     width: 231px;
     font-style: normal;
     font-weight: normal;
-    font-size: 1;
+    font-size: 14px;
 }
 /* portfolio*/
 .none {
     display: none;
 }
+.main-portfolio {
+    background-color: #E5E5E5;
+}
+
 .button-primary {
     background-color: #F5F4FA ;
     color: var(--black-color) ;
@@ -166,5 +170,20 @@
     font-family: Roboto;
     width: 29px;
     font-style: normal;
-    font-size: 1;
+    font-size: 16px;
+}
+.comunity .post-work {
+    color: var(--black-color) ;
+    font-family: Roboto;
+    width: 322px;
+    font-style: normal;
+    font-size: 18px;
+}
+.comunity .post-app {
+    color: var(--active-color) ;
+    font-family: Roboto;
+    width: 322px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
 }
