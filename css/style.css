@@ -24,10 +24,15 @@
 .part-logo {
     color: var(--pretty-color);
 }
+.logotip {
+    color: var(--while-color);
+    font-size: 26px;
+    font-family: Raleway;
+    font-style: normal;
+}
 
 .container {
     width: 1600px;
-    margin: 0 auto;
 }
 
 ul{
