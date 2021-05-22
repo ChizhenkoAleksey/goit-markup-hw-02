@@ -63,9 +63,9 @@
     font-size: 14px;
 }
 
-.site-nav .link:hover,.site-nav .link:focus
-.auth-navlisat:hover,.auth-navlisat:focus
-.telList:hover,.telList:focus {
+.site-navlist:hover,.site-navlist:focus
+.auth-navlist:hover,.auth-navlist:focus
+.te-list:hover,.tel-list:focus {
     color: var(--pretty-color);
     font-family: Roboto;
     width: 49px;
