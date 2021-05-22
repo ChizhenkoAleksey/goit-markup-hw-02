@@ -36,6 +36,7 @@
 .auth-navlist {
     color: var(--active-color) ;
     font-family: Roboto;
+    text-decoration: none;
     width: 122px;
     font-style: normal;
     font-weight: 500;
@@ -44,6 +45,8 @@
 /*site-nav*/
 .site-navlist {
     color: var(--black-color);
+    text-decoration: none;
+    font-style: normal;
 }
 .container {
     width: 1600px;
@@ -165,7 +168,7 @@
     width: 145px;
     border-radius: 4px;
 }
-.button-primary:hover, .button-primary:focus {
+.button-primary:hover,.button-primary:focus {
     color: var(--while-color) ;
     background-color: var(--pretty-color);
     font-family: Roboto;
