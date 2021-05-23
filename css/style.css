@@ -71,9 +71,11 @@ a {
     font-size: 14px;
 }
 
-.site-navlist:hover, .site-navlist:focus
-.auth-navlist:hover, .auth-navlist:focus
-.tel-list:hover, .tel-list:focus {
+.site-navlist .link:hover, .site-navlist .link:focus
+.auth-navlist .link:hover, .auth-navlist .link:focus
+.tel-list .map:hover, .tel-list .map:focus 
+.tel-list .add:hover, .tel-list .add:focus
+{
     color: var(--pretty-color);
     font-family: Roboto;
     width: 49px;
