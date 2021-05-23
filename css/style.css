@@ -75,10 +75,9 @@ ul
     font-size: 14px;
 }
 
-.site-navlist .link:hover, .site-navlist .link:focus
-.auth-navlist .link:hover, .auth-navlist .link:focus
-.tel-list .map:hover, .tel-list .map:focus 
-.tel-list .add:hover, .tel-list .add:focus
+.site-navlist a:hover, .site-navlist a:focus
+.auth-navlist a:hover, .auth-navlist .link:focus
+.tel-list a:hover, .tel-list a:focus 
 {
     color: var(--pretty-color);
 }
