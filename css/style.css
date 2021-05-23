@@ -39,7 +39,7 @@ a {
     color: inherit;
     text-decoration: none;
 }
-.auth-navlist {
+.auth-navlist .link {
     color: var(--active-color) ;
     font-family: Roboto;
     text-decoration: none;
@@ -50,7 +50,7 @@ a {
     line-height: 1.142;
 }
 /*site-nav*/
-.site-navlist {
+.site-navlist .link {
     color: var(--black-color);
     text-decoration: none;
     font-style: normal;
@@ -169,6 +169,7 @@ a {
     width: 231px;
     font-weight: normal;
     font-size: 14px;
+    font-style: normal;
 }
 .tel-list .add {
     color: rgba(255, 255, 255, 0.6);
@@ -176,6 +177,7 @@ a {
     width: 231px;
     font-weight: normal;
     font-size: 14px;
+    font-style: normal;
 }
 /* portfolio*/
 .none {
