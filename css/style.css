@@ -76,7 +76,7 @@ ul
 }
 
 .site-navlist a:hover, .site-navlist a:focus
-.auth-navlist a:hover, .auth-navlist .link:focus
+.auth-navlist a:hover, .auth-navlist a:focus
 .tel-list a:hover, .tel-list a:focus 
 {
     color: var(--pretty-color);
