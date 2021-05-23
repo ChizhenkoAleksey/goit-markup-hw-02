@@ -157,12 +157,12 @@
     background-color: #2F303A ;
     text-decoration: none;
     line-height: 1.714;
+    font-style: normal;
 }
 .tel-list .map {
     color: var(--while-color);
     font-family: Roboto;
     width: 231px;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
 }
@@ -170,7 +170,6 @@
     color: rgba(255, 255, 255, 0.6);
     font-family: Roboto;
     width: 231px;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
 }
