@@ -1,8 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    text-decoration: none; 
+    padding: 0; 
 }
 :root {
 --pretty-color: #2196F3;
@@ -35,6 +34,10 @@
     font-family: Raleway;
     font-style: normal;
     line-height: 1.192;
+}
+a {
+    color: inherit;
+    text-decoration: none;
 }
 .auth-navlist {
     color: var(--active-color) ;
