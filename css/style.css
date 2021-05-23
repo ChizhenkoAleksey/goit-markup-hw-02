@@ -39,6 +39,10 @@ a {
     color: inherit;
     text-decoration: none;
 }
+ul
+ {
+     list-style: none;
+  }
 .auth-navlist .link {
     color: var(--active-color) ;
     font-family: Roboto;
