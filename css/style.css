@@ -77,12 +77,6 @@ a {
 .tel-list .add:hover, .tel-list .add:focus
 {
     color: var(--pretty-color);
-    font-family: Roboto;
-    width: 49px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-
 }
 .site-nav .link.current {
     color: var(--pretty-color);
