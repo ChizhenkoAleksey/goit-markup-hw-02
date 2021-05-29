@@ -73,8 +73,7 @@ ul
     font-size: 14px;
 }
 
-.site-navlist a:hover, .site-navlist a:focus
-.auth-navlist a:hover, .auth-navlist a:focus
+.container a:hover, .container a:focus
 {
     color: var(--pretty-color);
 }
