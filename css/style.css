@@ -77,7 +77,6 @@ ul
 
 .site-navlist a:hover, .site-navlist a:focus
 .auth-navlist a:hover, .auth-navlist a:focus
-.tel-list a:hover, .tel-list a:focus 
 {
     color: var(--pretty-color);
 }
@@ -190,9 +189,7 @@ ul
     font-family: Roboto;
     background-color: #F5F4FA ;
     color: var(--black-color) ;
-    width: 145px;
     border-radius: 4px;
-    font-style: normal;
     font-size: 16px;
 }
 .button-primary:hover,.button-primary:focus {
