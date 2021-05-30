@@ -46,12 +46,15 @@ ul
 .auth-navlist {
     color: var(--active-color) ;
     width: 135px;
+    font-family: Roboto;
     font-weight: 500;
 
 }
 /*site-nav*/
 .site-navlist
 {
+    font-family: Roboto;
+    font-weight: 500;
     color: var(--black-color);
     width: 68px;
     
